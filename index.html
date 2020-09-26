@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
     <title>Frontend Mentor | Fylo data storage component</title>
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 767px)" />
+    <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 1024px)" />
   </head>
 
   <body>
@@ -28,21 +30,24 @@
         </figure>
       </div>
     </main>
-
     <section class="section__two">
-      <p class="section__two__text">You’ve used 815 GB of your storage</p>
+      <p class="section__two__text">You’ve used <span style="font-weight: 700">815 GB</span> of your storage</p>
       <figure class="section__two__slider__container">
-        <input class="section__two__slider" type="range" />
+        <div class="section__two__slider" />
       </figure>
       <div class="section__two__sliderData">
         <p>0 GB</p>
+        <div class="section__two__popup__container"></div>
         <p>1000 GB</p>
       </div>
+      <section class="section__two__popup">
+        <p><span class="text_bold">185</span> GB Left</p>
+      </section>
     </section>
-    185 GB Left 0 GB 1000 GB
+
     <div class="attribution">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Juan Manuel Velez Torres</a>.
     </div>
   </body>
 </html>

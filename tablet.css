@@ -1,0 +1,21 @@
+.main__section {
+  max-width: 45%;
+  justify-content: center;
+}
+
+.main__section__top {
+  margin-right: 10rem;
+  margin-bottom: 0;
+}
+
+.section__two {
+  max-width: 45%;
+}
+
+.main__bottom__section {
+  margin-right: 10rem;
+}
+
+.main__section__bottom__icon__container {
+  margin: 1rem;
+}
