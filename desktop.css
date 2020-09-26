@@ -4,6 +4,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   margin: 0 auto;
+  padding: 0;
 }
 .text_bold {
   font-size: 3rem;
